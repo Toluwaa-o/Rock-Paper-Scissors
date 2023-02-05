@@ -282,6 +282,7 @@ footer > p {
   border-radius: 7px;
   font-weight: 600;
   margin-bottom: 1em;
+  cursor: pointer;
 }
 
 .rules {
@@ -365,6 +366,7 @@ footer > p {
   letter-spacing: 3px;
   font-weight: 600;
   border-radius: 7px;
+  cursor: pointer;
 }
 
 footer {
