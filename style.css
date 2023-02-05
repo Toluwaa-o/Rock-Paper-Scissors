@@ -282,7 +282,6 @@ footer > p {
   border-radius: 7px;
   font-weight: 600;
   margin-bottom: 1em;
-  cursor: pointer;
 }
 
 .rules {
@@ -366,7 +365,6 @@ footer > p {
   letter-spacing: 3px;
   font-weight: 600;
   border-radius: 7px;
-  cursor: pointer;
 }
 
 footer {
@@ -381,7 +379,7 @@ footer {
 
 @media (min-width: 410px) {
   .active {
-    display: grid;
+    display: none;
     place-content: center;
     margin: auto;
     max-width: 50%;
@@ -412,6 +410,8 @@ footer {
   }
 
  .active {
+    display: none;
+    place-content: center;
     max-width: 45%;
     margin: auto;
   }
@@ -538,8 +538,8 @@ footer {
     height: 170px;
     width: 175px;
   }
-  
-    .output > p {
+
+  .output > p {
     transition: color 0.3s ease;
   }
 
