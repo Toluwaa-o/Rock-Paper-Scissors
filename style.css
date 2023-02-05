@@ -536,4 +536,12 @@ footer {
     height: 170px;
     width: 175px;
   }
+  
+    .output > p {
+    transition: color 0.3s ease;
+  }
+
+  .output > p:hover {
+    color: hsl(349, 71%, 52%);
+  }
 }
