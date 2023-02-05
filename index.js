@@ -268,7 +268,7 @@ function determineWinner(){
 }
 
 function winOrLose(){
-    if(didYou){
+    if(didYou === true){
         announce.textContent = `You Win`;
         playerScore = playerScore + 1;
         score.textContent = playerScore
@@ -285,6 +285,9 @@ restartBtn.addEventListener('click', ()=>{
     startPage.style.display = 'block';
     activePage.style.display = 'none';
     choices[0].innerHTML = '';
+    didYou = null;
+    compChoice = null;
+    choiceNum = null;
     let x = window.matchMedia('(min-width: 768px)')
     choices[1].style.background = 'hsl(229, 25%, 26%)';
     choices[1].style.borderRadius = '50%';
