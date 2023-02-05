@@ -197,6 +197,7 @@ function computerPick(){
         <span style="--i:3;"></span>
         <span style="--i:4;"></span>
       </div>`;
+      setTimeout(determineWinner, 2000)
     }
 }
 
@@ -268,7 +269,7 @@ function determineWinner(){
 }
 
 function winOrLose(){
-    if(didYou === true){
+    if(didYou){
         announce.textContent = `You Win`;
         playerScore = playerScore + 1;
         score.textContent = playerScore
